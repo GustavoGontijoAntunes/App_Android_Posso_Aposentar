@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_Nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite o seu nome"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_Idade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite a sua idade"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_Verificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="verificar"
+        android:text="VERIFICAR" />
+
+    <TextView
+        android:id="@+id/txt_Relatorio"
+        android:layout_width="match_parent"
+        android:layout_height="29dp" />
+</LinearLayout>
